@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <section class="navbar">
+      <ul class="navbar-links-list">
+        <li class="navbar-list-item">
+          <p class="navbar-item">REAL LIFE</p>
+        </li>
+        <li class="navbar-list-item">
+          <p class="navbar-item">NBA CAREER</p>
+        </li>
+      </ul>
+    </section>
+    <section class="hero" data-scroll-container>
+      <div class="container-left" data-scroll-section>
+        <h1 class="hero-text" data-scroll data-scroll-speed="1">
+          JAYSON <br />
+          TATUM
+        </h1>
+      </div>
+      <div class="container-right">
+        <div class="hero-image">
+          <img class="gambar" src="./public/hero-image.jpg" alt="hero-image" />
+        </div>
+      </div>
+    </section>
+    <div class="container-image-2">
+      <img class="image-2" src="./public/photo.jpg" />
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@beta/bundled/locomotive-scroll.min.js"></script>
+    <script>
+      (function () {
+        const locomotiveScroll = new LocomotiveScroll();
+      })();
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.js"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/locomotive-scroll@4.1.4/dist/locomotive-scroll.min.css"
+      rel="stylesheet"
+    />
+  </body>
+</html>
